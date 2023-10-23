@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <math.h>
+#include <stdlib>
+
+int main(){
+
+double latitudeOrigin, longitudeOrigin, LatitudeDestination, LongitudeDestination;
+do double distance, distance, Delta;
+
+const float R=6371.0;
+const float PI=3.14;
+
+printf("Enter the value of your location of the origin(latitude,longitude):");
+scanf("%lf,%lf",&latitudeOrigin,&longitudeOrigin);
+printf("Enter the value of your destination(latitude,longitude):");
+scanf("%lf,%lf",&latitudeDestination,longitudeDestination);
+
+latitudeOrigin=(latitudeOrigin*PI)/180;
+longitudeOrigin=(longitudeOrigin*PI)/180;
+latitudeDestination=(latitudeDestination*PI)/180;
+longitudeDestination=(longitudeDestination*PI)/180;
+
+Delta=longitudeDestination-longitudeOrigin;
+
+distance=longitudeDestination
+}
