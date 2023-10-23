@@ -22,5 +22,10 @@ longitudeDestination=(longitudeDestination*PI)/180;
 
 Delta=longitudeDestination-longitudeOrigin;
 
-distance=longitudeDestination
+distance=longitudeDestination-latitudeOrigin;
+
+printf("Origin: (%lf,%lf)\nDestination: (%lf,%lf)\n",latitudeOrigin*180/PI,longitudeOrigin*180/PI,latitudeDestination*180/PI,longitudeDestination*180/PI);
+printf("Air distance is %lf km\n",distance);
+
+return 0;
 }
