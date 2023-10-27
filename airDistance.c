@@ -4,7 +4,7 @@
 
 int main(){
 
-double  latitudeOrigin, longitudeOrigin, LatitudeDestination, LongitudeDestination;
+double  latitudeOrigin, longitudeOrigin, latitudeDestination, longitudeDestination;
 double distance, Delta, a, c;
 
 const double R=6371.0;
